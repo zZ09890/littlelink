@@ -158,6 +158,12 @@ body {
 footer {
 	margin:var(--spacing-xxl) 0;            /* 4rem (64px) top and bottom */
     font-size:var(--scale-0);
+ /* 添加 */
+	margin-top: auto;                     /* 自动填满上方空间，将 footer 推到底部 */
+    margin-bottom: var(--spacing-xxl);    /* 保留原有的底部间距 */
+    padding: var(--spacing-xxl) 0;        /* 建议给一点内边距 */
+    font-size: var(--scale-0);
+    text-align: center;                   /* 居中显示 */
 }
 
 /* Responsive adjustments */
